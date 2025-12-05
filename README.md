@@ -3,7 +3,7 @@
 We propose the Unbalanced-Balanced Representation Converter (U2B) based on [PyTorch](https://pytorch.org/) and [PyTorch Geometric](https://www.pyg.org/), a framework that mitigates bias toward specific graph scales through a two-step process: (1) a distillation phase that extracts base features from node-level and graph-level representations using static sinkhorn and dynamic constraints, respectively; and (2) a refinement phase that generates balanced representations. A consistency alignment loss further harmonizes node-level and graph-level features, producing more cohesive and scale-balanced graph representations. Extensive experiments across multiple datasets confirm the effectiveness of U2B.
 ## 📝 Overall architecture of U2B
 <p align="center">
-<img src="figs/U2B.png" width="100%" class="center" alt="logo"/>
+<img src="U2B.png" width="100%" class="center" alt="logo"/>
 </p>
 
 ## Installation
